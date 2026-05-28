@@ -35,6 +35,7 @@ void main() {
 
     //Pattern 3
 
+    //Part1
     for(int row = 1; row<=n; row++){
 
         for(int col = 1; col<=n-row; col++){
@@ -59,6 +60,8 @@ void main() {
         //move to next row
         System.out.println();
     }
+
+    //part2 (below)
     for(int row = 1; row<=(n-1); row++){
 
         //part1
